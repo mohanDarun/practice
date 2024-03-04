@@ -1,0 +1,6 @@
+name: 'Custom Node Data'
+type: module
+description: 'Custom module for fetching data for a particular node.'
+package: Custom
+version: '1.0'
+core_version_requirement: ^9 || ^10

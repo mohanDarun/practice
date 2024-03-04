@@ -1,0 +1,8 @@
+custom_node_data.get_node_data:
+  path: '/node/{node_id}/data'
+  defaults:
+    _controller: '\Drupal\custom_node_data\Controller\CustomNodeDataController::getNodeData'
+    _title: 'Fetch Node Data'
+  requirements:
+    _permission: 'access content'
+    node_id: '\d+'  # Require node_id to be a positive integer.
